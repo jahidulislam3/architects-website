@@ -1,6 +1,61 @@
 /* work sans font from google */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,700&display=swap');
 
-*{
+* {
     font-family: 'Work Sans', sans-serif;
+}
+
+/* Shard stile */
+button.but-prymari {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 10px 20px;
+    color: #FFF;
+    font-size: 20px;
+    border: none;
+    margin: 30px 0px 50px 0px;
+}
+
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-tytle {
+    font-size: 3rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 44px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+}
+
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1.banner-title {
+    font-size: 4rem;
+    text-align: center;
+    color: #131313;
 }
