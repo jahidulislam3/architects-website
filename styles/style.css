@@ -81,7 +81,7 @@ h1.banner-title {
     font-weight: 700;
 }
 
-.features {
+.teams-features {
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;
@@ -107,6 +107,22 @@ main {
     margin-left: 32px;
 }
 
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    border: 1px solid rgb(255, 144, 14);
+    text-align: center;
+    border-radius: 8px;
+    width: 133px;
+    padding: 26px 35px;
+    margin-top: 52px;
+    margin-bottom: 52px;
+}
+
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -115,10 +131,11 @@ main {
         padding: 20px;
     }
 
-    nav, .teams-container {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
-     
+
 }
 
 /* tablet or medium devices */
