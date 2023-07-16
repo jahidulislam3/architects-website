@@ -88,6 +88,57 @@ h1.banner-title {
 }
 
 /* main styile */
+
+/* features section */
+.features {
+    display: flex;
+}
+
+.features-img img {
+    width: 433px;
+    height: 729px;
+}
+
+.features {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+.features-card {
+    background: aliceblue;
+    padding: 6px 1px 11px 13px;
+    margin: 18px;
+    border-radius: 9px;
+    margin-right: 59px;
+}
+
+.features-img {
+    margin-top: 37px;
+    margin-left: 5px;
+}
+
+h1#love-enjoy {
+    border-left: 4px solid #FF900E;
+    padding: 0px 0px 0px 10px;
+}
+
+.Experience {
+    background: #FF900E;
+    width: 92px;
+    padding: 2px 35px 2px 35px;
+    position: absolute;
+    margin-top: -61px;
+    margin-left: -31px;
+    color: white;
+    border-radius: 8px;
+}
+
+.Experience h1 {
+    padding: 0;
+    margin: 9px 0px -1px 0px;
+}
+
 main {
     max-width: 925px;
     margin: 0 auto;
@@ -121,19 +172,20 @@ main {
     margin-top: 52px;
     margin-bottom: 52px;
 }
-.sponosors{
+
+.sponosors {
     text-align: center;
 }
 
-.sponosors-img-container{
+.sponosors-img-container {
     display: flex;
     justify-content: space-evenly;
     margin: 40px 0px 100px 0px;
 }
+
 .sponosors-img-container img {
     width: 10%;
 }
-
 
 /* responsive media queries */
 /* mobile devices */
@@ -144,14 +196,18 @@ main {
     }
 
     nav,
-    .teams-container , .facts-card-container , .sponosors-img-container{
+    .teams-container,
+    .facts-card-container,
+    .sponosors-img-container {
         flex-direction: column;
     }
+
     .card {
         width: 221px;
         margin: auto;
         margin-top: 58px;
     }
+
     .sponosors-img-container img {
         width: 57%;
         padding: 15px 19px 15px 76px;
