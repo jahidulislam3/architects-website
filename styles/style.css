@@ -121,6 +121,18 @@ main {
     margin-top: 52px;
     margin-bottom: 52px;
 }
+.sponosors{
+    text-align: center;
+}
+
+.sponosors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px 100px 0px;
+}
+.sponosors-img-container img {
+    width: 10%;
+}
 
 
 /* responsive media queries */
@@ -132,10 +144,18 @@ main {
     }
 
     nav,
-    .teams-container {
+    .teams-container , .facts-card-container , .sponosors-img-container{
         flex-direction: column;
     }
-
+    .card {
+        width: 221px;
+        margin: auto;
+        margin-top: 58px;
+    }
+    .sponosors-img-container img {
+        width: 57%;
+        padding: 15px 19px 15px 76px;
+    }
 }
 
 /* tablet or medium devices */
