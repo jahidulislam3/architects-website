@@ -15,9 +15,11 @@ button.but-prymari {
     border: none;
     margin: 30px 0px 50px 0px;
 }
-body{
+
+body {
     margin: 0;
 }
+
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 30px 200px;
@@ -67,6 +69,44 @@ h1.banner-title {
 }
 
 
+.quick {
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.of-our {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.features {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* main styile */
+main {
+    max-width: 925px;
+    margin: 0 auto;
+}
+
+.teams-img-container img {
+    width: 47%;
+}
+
+.teams-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.teams-content {
+    margin-top: 53px;
+    margin-left: 32px;
+}
+
 /* responsive media queries */
 /* mobile devices */
 @media screen and (max-width:576px) {
@@ -75,9 +115,10 @@ h1.banner-title {
         padding: 20px;
     }
 
-    nav {
+    nav, .teams-container {
         flex-direction: column;
     }
+     
 }
 
 /* tablet or medium devices */
@@ -85,8 +126,10 @@ h1.banner-title {
     nav {
         flex-direction: column;
     }
+
     header {
         background: rgba(255, 144, 14, 0.10);
         padding: 50px;
     }
+
 }
