@@ -186,6 +186,16 @@ main {
 .sponosors-img-container img {
     width: 10%;
 }
+/* footer part */
+footer {
+    text-align: center;
+    background: #FFF4E7;
+    padding: 10px;
+}
+
+
+
+
 
 /* responsive media queries */
 /* mobile devices */
@@ -201,7 +211,9 @@ main {
     .sponosors-img-container {
         flex-direction: column;
     }
-
+    .features {
+        flex-direction: column;
+    }
     .card {
         width: 221px;
         margin: auto;
